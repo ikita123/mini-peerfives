@@ -1,0 +1,72 @@
+.user-list-container {
+  margin-top: 20px;
+}
+  
+.user-list-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-list-table th, .user-list-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.user-list-table th {
+  background-color: #f2f2f2;
+}
+
+.user-list-table a {
+  text-decoration: none;
+color: #007bff;
+}
+
+.user-list-table a:hover {
+  text-decoration: underline;
+}
+
+.user-form {
+  max-width: 400px; /* Set maximum width for the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.user-form h1 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.user-form label {
+  display: block; /* Make labels block-level elements */
+  margin-bottom: 5px; /* Add space below each label */
+}
+
+.user-form input[type="text"] {
+  width: 100%; /* Set input width to 100% */
+  padding: 10px; /* Add padding to input */
+  margin-bottom: 15px; /* Add space below the input */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+}
+
+.user-form button {
+  padding: 10px 20px; /* Add padding to buttons */
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.user-form button[type="submit"] {
+  background-color: #28a745; /* Green color for submit button */
+}
+
+.user-form button[type="submit"]:hover,
+.user-form button[type="button"]:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
